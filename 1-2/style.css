@@ -1,0 +1,66 @@
+body {
+    background-color: bisque;
+    font-family: sans-serif;
+}
+
+h1  {
+    padding: 15px;
+    color: rgb(74, 0, 105);
+}
+
+table {
+    border-collapse: collapse;
+    display: block;
+}
+
+td {
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: rgb(255, 198, 128);
+    text-align: center;
+}
+
+button {
+    padding: 7px;
+    margin: 5px;
+    background-color: rgb(250, 197, 128);
+    color: darkmagenta ;
+    cursor: pointer;
+    border-radius: 8px;
+    font-weight: bolder;
+    font-size: 15px;
+}
+
+
+button:hover {
+    background-color: rgb(179, 99, 99);
+}
+
+ul.alumno {
+    list-style: none;
+}
+
+.notas {
+    display: none;
+}
+
+td.materia {
+    background-color: rgb(247, 176, 85)
+}
+
+td.materia:hover > .notas {
+    display: block;
+}
+
+td.materia:hover {
+    background-color: rgb(247, 176, 85);
+}
+
+caption {
+    padding: 5px;
+    padding-top: 8px ;
+    font-weight: 450;
+    background-color: rgb(255, 204, 128);
+    border-radius: 5px ;
+}
